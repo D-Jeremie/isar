@@ -9,9 +9,9 @@ environment:
 
 dependencies:
   isar: 2.5.0
-  build: ^2.2.1
-  source_gen: ^1.2.1
-  analyzer: ^3.0.0
+  build: ^2.2.2
+  source_gen: ^1.2.3
+  analyzer: ^5.0.0
   glob: ^2.0.2
   path: ^1.8.0
   dart_style: ^2.2.1
