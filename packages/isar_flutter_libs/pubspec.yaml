@@ -12,7 +12,9 @@ dependencies:
   flutter:
     sdk: flutter
   isar:
-    path: ../isar
+    git:
+      url: https://github.com/D-Jeremie/isar.git
+      path: packages/isar
 
 flutter:
   plugin:

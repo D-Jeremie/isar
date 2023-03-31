@@ -9,7 +9,9 @@ environment:
 
 dependencies:
   isar:
-    path: ../isar
+    git:
+      url: https://github.com/D-Jeremie/isar.git
+      path: packages/isar
   build: ^2.2.2
   source_gen: ^1.2.3
   analyzer: ^5.0.0
