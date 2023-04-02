@@ -1,8 +1,7 @@
 #!/bin/bash
 
-#core_version=`cat ../../CORE_VERSION`
-core_version="3.0.6-dev.0"
-github="https://github.com/isar/isar/releases/download/${core_version}"
+core_version=`cat ../../CORE_VERSION`
+github="https://github.com/isar/isar-core/releases/download/${core_version:5}"
 
 echo "${github}/libisar_android_arm64.so"
 
